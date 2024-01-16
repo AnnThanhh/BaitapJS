@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BaiTapJS</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <!-- Bài Tập 1  -->
+    <div class="container">
+        <h2>Tính Lương</h2>
+        <form>
+            <div class="form-group">
+                <label for="">Lương 1 ngày:</label>
+                <input type="number" id="luongNgay" placeholder="Nhập lương 1 ngày">
+            </div>
+
+            <div class="form-group">
+                <label for="">Số ngày làm:</label>
+                <input type="number" id="soNgay" placeholder="Nhập số ngày làm">
+            </div>
+        </form>
+        <button type="button" id="tinhLuongBtn">Tính Lương</button>
+        <div id="ketQua" class="alert alert-info"></div>
+
+    </div>
+
+    <!-- Bài Tập 2  -->
+    <div class="container">
+        <h2>Tính trung bình</h2>
+        <form>
+            <div class="form-group">
+                <label for="">Số thực 1:</label>
+                <input type="number" step="any" id="so1" placeholder="Nhập số thực 1" required>
+            </div>
+
+            <div class="form-group">
+                <label for="">Số thực 2:</label>
+                <input type="number" step="any" id="so2" placeholder="Nhập số thực 2" required>
+            </div>
+
+            <div class="form-group">
+                <label for="">Số thực 3:</label>
+                <input type="number" step="any" id="so3" placeholder="Nhập số thực 3" required>
+            </div>
+
+            <div class="form-group">
+                <label for="">Số thực 4:</label>
+                <input type="number" step="any" id="so4" placeholder="Nhập số thực 4" required>
+            </div>
+
+            <div class="form-group">
+                <label for="">Số thực 5:</label>
+                <input type="number" step="any" id="so5" placeholder="Nhập số thực 5" required>
+            </div>
+        </form>
+        <button type="button" id="tinhTbinhBtn">Tính Trung Bình</button>
+        <div id="ketQua2" class="alert alert-info"></div>
+
+    </div>
+
+    <!-- Bài Tập 3  -->
+    <div class="container">
+        <h2>Đổi tiền</h2>
+        <form>
+            <div class="form-group">
+                <label for="">Nhập số USD:</label>
+                <input type="number" step="any" id="inputUSD" placeholder="Nhập số USD" required>
+            </div>
+        </form>
+        <button type="button" id="quyDoiBtn">Quy Đổi</button>
+        <div id="ketQua3" class="alert alert-info"></div>
+    </div>
+
+    <!-- Bài Tập 4  -->
+    <div class="container">
+        <h2>Tính Diện Tích và Chu Vi Hình Chữ Nhật</h2>
+        <form>
+            <div class="form-group">
+                <label for="">Chiều dài:</label>
+                <input type="number" step="any" id="chieuDai" placeholder="Nhập chiều dài" required>
+            </div>
+            <div class="form-group">
+                <label for="">Chiều rộng:</label>
+                <input type="number" step="any" id="chieuRong" placeholder="Nhập chiều rộng" required>
+            </div>
+        </form>
+        <button type="button" id="tinhCVDTBtn">Tính</button>
+        <div id="ketQua4" class="alert alert-info"></div>
+    </div>
+
+     <!-- Bài Tập 5  -->
+     <div class="container">
+        <h2>Tính Tổng Hai Chữ Số</h2>
+        <form>
+            <div class="form-group">
+                <label for="">Nhập số (2 chữ số):</label>
+                <input type="number" id="soHaiChuSo" placeholder="Nhập số (2 chữ số)" required>
+            
+            </div>
+        </form>
+        <button type="button" id="tinhTongBtn">Tính Tổng</button>
+        <div id="ketQua5" class="alert alert-info"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+
+    <script src="./JS/demo.js"></script>
+</body>
+
+</html>
